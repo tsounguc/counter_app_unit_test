@@ -37,6 +37,11 @@ class _MyHomePageState extends State<MyHomePage> {
               '${counter.count}',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            FloatingActionButton(
+              onPressed: () {},
+              tooltip: 'Increment',
+              child: const Icon(Icons.add),
+            ),
           ],
         ),
       ),
